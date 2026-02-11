@@ -12,9 +12,7 @@ DevelopTool=AQT
 
 [Actions]
 Action0=Action0\Script.mts
-2 Flight Confirmation link param=Action2\Script.mts
-3 Search Order link param=Action3\Script.mts
-1 Login link param=Action1\Script.mts
+regression=Action1\Script.mts
 
 [VuserProfiles]
 Profiles=Default Profile
@@ -44,10 +42,7 @@ File Content=
 Insight=
 Windows Applications=
 TEA=
-Visual Basic=
 Web=
-.NET=
-WPF=
 XML=
 
 [ExtraFiles]
@@ -58,12 +53,6 @@ Parameters.mtr=
 Action0\Script.mts=
 Action0\Resource.mtr=
 Action0\ObjectRepository.bdb=
-Action2\Script.mts=
-Action2\Resource.mtr=
-Action2\ObjectRepository.bdb=
-Action3\Script.mts=
-Action3\Resource.mtr=
-Action3\ObjectRepository.bdb=
 Action1\Script.mts=
 Action1\Resource.mtr=
 Action1\ObjectRepository.bdb=
