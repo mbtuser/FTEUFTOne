@@ -67,3 +67,5 @@ Else
         "MobileLabel with resourceid=textViewOrderNumber was not detected"
     ExitAction
 End If
+
+AIUtil("close").Click
