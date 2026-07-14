@@ -14,7 +14,7 @@
 'End If
 '
 'objShell.ShellExecute browserPath, iURL, "", "", 1
-Wait(5)
+'Wait(5)
 
 AIUtil.SetContext Browser("creationtime:=0")
 AIUtil("profile").Click
