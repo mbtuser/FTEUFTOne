@@ -9,6 +9,14 @@ Else
 objShell.ShellExecute "C:\Program Files (x86)\OpenText\Functional Testing\samples\Flights Application\FlightsGUI.exe"
 End If @@ hightlight id_;_462826_;_script infofile_;_ZIP::ssf75.xml_;_
 
+
+'AIUtil.SetContext WpfWindow("wpftypename:=window", "regexpwndtitle:=OpenText MyFlight Sample Application", "devname:=OpenText MyFlight Sample Application")
+'AIUtil.FindTextBlock("Username").Click
+'AIUtil("text_box", "").SetText Parameter("Username")
+'AIUtil.FindTextBlock("Password").Click
+'AIUtil("text_box", "sp!").SetText Parameter("Password")
+'AIUtil.FindTextBlock("OK").Click
+
 AIUtil.SetContext Window("regexpwndtitle:=OpenText MyFlight Sample Application")
 AIUtil.FindTextBlock("Username").Click
 AIUtil("text_box", "").Type Parameter("Username")
